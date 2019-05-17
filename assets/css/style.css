@@ -100,12 +100,16 @@ main
 
 }
 
-.about h1
+.about h1 , .contact h1 , .portfolio h1
 {
 	color: #4aaaa5;
 	font-size: 30px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
+
+
+
 hr
 {
 	color: #cccccc;
@@ -113,6 +117,8 @@ hr
 	background-color: #cccccc;
 	border: none;
 }
+
+
 
 img 
 {
@@ -130,10 +136,6 @@ p{
 	
 }
 
-p .wrap 
-{
-
-}
 
 p .nowrap
 {
@@ -142,13 +144,59 @@ clear: both;
 
 
 
+
+.contactform
+{
+	width: 100%;
+}
+
+.inputemail , .inputname , .message
+{
+	width: 100%;
+}
+
+
+input
+{
+	height: 30px;
+}
+
+input, textarea
+{
+	border: solid 1px #dddddd;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	color: #777777;
+}
+
+.submit
+{
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 16px;
+	height: 40px;
+	width: 100px;
+
+}
+	
+
 footer 
 {
 	background-color: #666666;
 	bottom: 0px;
 	left: 0;
 	width: 100%;
+	padding: 20px;
 	position: fixed;
+	border-top: 7px solid #4aaaa5;
+	text-align: center;
 }
 
+.copyright 
+{
+	position: relative;
+	color: #cccccc;
+	top: 15px;
+	font-size: 11px;	
+}
 
