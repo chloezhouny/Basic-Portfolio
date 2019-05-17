@@ -120,10 +120,10 @@ hr
 
 
 
-img 
+.about img 
 {
-	width: 96px;
-	height:128px;
+	width: 120px;
+	height:160px;
 	float: left;
 	margin-right: 20px;
 	margin-top: 20px;
@@ -179,6 +179,32 @@ input, textarea
 
 }
 	
+.portfolio
+{
+	height: 800px;
+}
+
+.box1, .box2, .box3, .box4, .box5
+{
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+
+div .text
+{
+	position: relative;
+	bottom: 50px;
+	background-color: #4aaaa5;
+	text-align: center;
+
+	color: white;
+	width: 200px;
+	padding: 10px 0px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 16px;
+
+}
 
 footer 
 {
