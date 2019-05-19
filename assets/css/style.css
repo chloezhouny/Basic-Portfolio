@@ -16,7 +16,7 @@ header
 	position: fixed;
 	z-index: 500;
 	width: 100%;
-	top: 0;
+	top: 10px;
 	left: 0;
 	height: 90px;
 	border-bottom: solid #cccccc 2px;
@@ -103,7 +103,7 @@ main
 	position: relative;
 	width: 960px;
 	margin: 0 auto;
-	top: 130px;
+	top: 140px;
 	padding: 20px 30px;
 
 
