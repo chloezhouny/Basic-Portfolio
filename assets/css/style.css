@@ -27,7 +27,9 @@ header
 	width: 960px;
 	height: 88px;
 	margin: 0px auto;
-	font-family: 'Georgia', Times, Times New Roman, serif;.
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: relative;
+
 }
 
 .name
@@ -43,7 +45,20 @@ header
 
 li 
 {
-	display: inline;
+	display: inline-block;
+}
+
+nav
+{
+	display: block;
+	width: 300px;
+	float: right;
+	right: 0;
+	overflow: auto;
+	position: absolute;
+	z-index: 520;
+	top: 20px;
+
 }
 
 a
@@ -57,13 +72,7 @@ a:visited
 	color: #777777;
 }
 
-nav
-{ 
-	position: absolute;
-	left: 930px;
-	z-index: 520;
-	top: 17px;
-}
+
 
 span
 {
@@ -150,7 +159,7 @@ clear: both;
 	width: 100%;
 }
 
-.inputemail , .inputname , .message
+#name , #email, #message
 {
 	width: 100%;
 }
@@ -168,6 +177,7 @@ input, textarea
 	margin-top: 5px;
 	color: #777777;
 }
+
 
 .submit
 {
