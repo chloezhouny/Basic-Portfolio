@@ -39,7 +39,7 @@ header
 	z-index: 520;
 	color: white;
 	height: 88px;
-	padding: 10px 40px 0px 40px;
+	padding: 2px 40px 0px 40px;
 	font-size: 20px;
 }
 
@@ -104,7 +104,7 @@ main
 	width: 960px;
 	margin: 0 auto;
 	top: 140px;
-	padding: 20px 30px;
+	padding: 40px 30px 20px 30px;
 
 
 }
@@ -128,21 +128,28 @@ hr
 }
 
 
+.aboutcontent
+{
+	padding-top: 5px;
+}
 
-.about img 
+.aboutcontent img 
 {
 	width: 120px;
 	height:160px;
 	float: left;
 	margin-right: 20px;
-	margin-top: 20px;
+	margin-top: 27px;
 }
 
+p .wrap
+{
+	float: left;
+}
 
 p{
 	line-height: 2;
 	font-size: 18px;
-	
 }
 
 
@@ -157,6 +164,12 @@ clear: both;
 .contactform
 {
 	width: 100%;
+}
+
+form
+{
+	padding-top: 20px;
+	margin-left: 20px;
 }
 
 #name , #email, #message
@@ -194,6 +207,10 @@ input, textarea
 	height: 800px;
 }
 
+.box
+{
+	margin-top: 40px;
+}
 .box1, .box2, .box3, .box4, .box5
 {
 	width: 300px;
